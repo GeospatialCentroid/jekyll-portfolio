@@ -91,29 +91,33 @@ sections:
     title: Our Crew!
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+      - title: MATT ROSS
+        text: FACULTY DIRECTOR
+        image: assets/img/members/ross_matt.jpeg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: SOPHIA LINN
+        text: HEAD
+        image: assets/img/members/SophiaLinn.jpeg
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
+      - title: CAITLIN MOTHES
+        text: LEAD GEOSPATIAL DATA SCIENTIST
+        image: assets/img/members/Caitlin_Mothes.jpeg
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
+      - title: DAN CARVER
+        text: GEOSPATIAL TECHNICAL MANAGER
+        image: assets/img/members/DanCarver.png
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
+      - title: ELIZABETH TULANOWSK
+        text: EDUCATION COORDINATOR
+        image: assets/img/members/ElizabethTulanowski.jpeg
         url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: JOSH REYLING
+        text: GEOSPATIAL HELP DESK LEAD
+        image: assets/img/members/josh_reyling.png
+        url: '#'
+      - title: KEVIN WORTHINGTON
+        text: MAPS AND GIS DATA SPECIALIST
+        image: assets/img/members/kevin_worthington.jpeg
         url: '#'
 
   - type: timeline.html
@@ -141,19 +145,18 @@ sections:
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Contact us for project support, Geospatial Help Desk assistance, training opportunities, internships or other ways to get more involved with the Centroid.
     actions:
-    - title: +1 (202) 555-014
+    - title: 970.491.2774
       icon: bi-telephone-fill
     - title: E-Mail
       icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
+      url: mailto:gis@colostate.edu
     - title: Twitter
       icon: bi-twitter
-      url: '#'
-    - title: Facebook
-      icon: bi-facebook
-      url: '#'
+      url: 'https://twitter.com/centroid_csu'
+    - title: Listserve
+      icon: bi-mailbox2-flag
+      url: 'https://lists.colostate.edu/cgi-bin/mailman/listinfo/geospatial'
 
 ---
