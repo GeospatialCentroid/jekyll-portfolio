@@ -1,10 +1,9 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: Exploring and applying geospatial technologies to help create a better future
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Geospatial project support, Help Desk assistance, training opportunities, and internships.
   action: # action button is optional
     label: Find Out More
     url: '#about'

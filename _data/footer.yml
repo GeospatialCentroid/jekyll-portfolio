@@ -1,5 +1,5 @@
-copyright: '&copy; Start Bootstrap'
+copyright: #
 links:
-  - text: Creative
-    url: 'https://startbootstrap.com/themes/creative/'
+  - text: Geospatial Centroid
+    url: 'https://gis.colostate.edu/'
     new_window: true
