@@ -19,6 +19,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 exclude:
+  - tmp/
   - Gemfile
   - Gemfile.lock
   - build-in-docker.sh
