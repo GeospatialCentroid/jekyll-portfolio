@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2024 - Geospatial Centroid
 lang: en_US
-theme: ''
+remote_theme: vvalchev/creative-theme-jekyll-new
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
