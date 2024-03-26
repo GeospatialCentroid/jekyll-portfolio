@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #11643a;
+  --bs-link-color: #fff;
   --bs-link-hover-color: #c34e2e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -248,6 +248,9 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+}
+#contacts a{
+ color: var(---bs-grey-900);
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -10836,7 +10839,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {

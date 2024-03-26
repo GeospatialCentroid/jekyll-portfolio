@@ -6,85 +6,57 @@ header:
     Geospatial project support, Help Desk assistance, training opportunities, and internships.
   action: # action button is optional
     label: Find Out More
-    url: '#about'
+    url: '#services'
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
 
   - type: services.html
     section_id: services
-    #background_style: bg-info
-    title: At Your Service
+    background_style: bg-primary
+    title: #Services
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
+
+      - title: Working with the Centroid
+        text: The Geospatial Centroid offers technical services in spatial analysis, cartography, interactive web applications, and remote sensing. We also offer grant/proposal assistance for those seeking to add a spatial component to their research. While some Centroid services are free, there is a fee for tasks requiring more time or expertise. Centroid staff and interns have a wide range of interests and skills. For inquiries, please send an email to&#58; [gis@colostate.edu](mailto:gis@colostate.edu).
+      - title: Technical Assistance
+        text: For geospatial technical assistance, it is best to set up an appointment by sending an email to&#58; [gis_help@colostate.edu](mailto:gis_help@colostate.edu). You can also visit the Centroid at 211G Morgan Library (located on the north end of the second floor) during its hours of operation. (Spring 2024&#58; Mon-Thurs, 10&#58;00-4&#58;00)
+      - title: Training Resources and Events
+        text: The Centroid offers periodic training and workshops in standard GIS software applications (ArcGIS, QGIS), programming (R/Python), and other timely topics. In addition, we often sponsor geospatial-related presentations and guest speakers. Check out the Centroid Event Calendar for upcoming activities or sign up for the [GEOSPATIAL listserv](https://lists.colostate.edu/cgi-bin/mailman/listinfo/geospatial) to receive notifications of events and other opportunities
+
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: PBGJAM Data Visualizer
+        text: #
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
-        url: '#'
-
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+        icon: pbjam.png
+        url: 'https://geocentroid.shinyapps.io/PBGJAM-data-explorer/'
+      - title: Secondary Cities
+        text: #
+        icon: secondary_cities.png
+        url: 'https://secondarycities.state.gov/'
+      - title: Brightfields
+        text: Brightfields&#58; Contributions towards data gathering, processing, analysis.
+        icon: Brightfields.png
+        url: 'https://brightfields.colorado.gov'
+      - title: Cannabis Carbon Emission
+        text: #
+        icon: CannabisEmissions.png
+        url: 'https://www.arcgis.com/apps/webappviewer/index.html?id=f47100de3f6b46bb9aebf8dc52d957bf&extent=-18880993.9285%2C2754896.1724%2C-8069740.6478%2C10092850.8878%2C102100'
+      - title: Colorado EnviroScreen
+        text: #
+        icon: EnviroSceen.png
+        url: 'https://teeo-cdphe.shinyapps.io/COEnviroScreen_English/'
+      - title: CSU Building Histories
+        text: #
+        icon: building_histories.png
+        url: 'https://geospatialcentroid.github.io/building_histories/?&e=(c:~40.57430588436045,-105.08311369696459~,z:17)'
 
   - type: members.html
     section_id: members
@@ -126,14 +98,12 @@ sections:
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/timeline/noun_world_14750-768x768.png
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          2009
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
+           Geospatial Centroid was established to promote and support spatial thinking and geospatial technologies in research, teaching, and projects for the Colorado State University (CSU) campus and the greater local community.
+      - image: assets/img/timeline/logo.png
         title: >+
           November 2019
           An Coaching started
@@ -156,7 +126,7 @@ sections:
       icon: bi-twitter
       url: 'https://twitter.com/centroid_csu'
     - title: Listserve
-      icon: bi-mailbox2-flag
+      icon: bi-mailbox
       url: 'https://lists.colostate.edu/cgi-bin/mailman/listinfo/geospatial'
 
 ---

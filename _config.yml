@@ -7,8 +7,6 @@ url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2024 - Geospatial Centroid
 lang: en_US
 remote_theme: vvalchev/creative-theme-jekyll-new
-date: 2024-03-22
-incremental: false
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
